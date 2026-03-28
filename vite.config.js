@@ -3,8 +3,8 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/school-of-magic-git/', // Důležité pro správné načítání na GitHub Pages
+  base: '/school-of-magic/', // Opraveno pro správný název repozitáře na GitHub Pages
   build: {
-    outDir: 'docs', // Výstupní složka pro GitHub Pages
+    outDir: 'docs',
   },
 });
