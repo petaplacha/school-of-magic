@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Heart, Backpack, Book, Scroll, Skull, ArrowRight, Sparkles, FlaskConical, CircleDot, HelpCircle, Sun, Coins, DoorOpen, Eye, Key, Settings, Ghost, Search, Moon, Beaker, MessageCircle, X } from 'lucide-react';
 import './App.css';
+import heroImg from './assets/hero.png';
 
 // --- DATA PŘÍBĚHU (EN - B1 Level) ---
 const storyData = {
